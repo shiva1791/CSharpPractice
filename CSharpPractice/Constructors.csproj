@@ -42,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Constructors_Example1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Constructors_Example2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
