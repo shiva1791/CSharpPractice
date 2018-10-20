@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace CSharpPractice
 {
-    class Constructors_Example3
+    class ClassC
     {
-        public Constructors_Example3(int a)
+        public ClassC(int a)
         {
             Console.WriteLine($"The value is int {a}");
         }
 
-        public Constructors_Example3(long b)
+        public ClassC(long b)
         {
             Console.WriteLine($"The value is long {b}");
         }
 
-        public Constructors_Example3(string s)
+        public ClassC(string s)
         {
             Console.WriteLine($"The value is {s}");
         }
 
-        public Constructors_Example3()
+        public ClassC()
         {
             Console.WriteLine("default constructor with a parameterized constructor");
         }

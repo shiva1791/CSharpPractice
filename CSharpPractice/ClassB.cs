@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace CSharpPractice
 {
-    class Constructors_Example2
+    class ClassB
     {
-        static Constructors_Example2()
+        static ClassB()
         {
             Console.WriteLine("I am a static constructor always called first");
         }
 
-        public Constructors_Example2()
+        public ClassB()
         {
             Console.WriteLine("I am default constructor");
         }

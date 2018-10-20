@@ -11,15 +11,15 @@ namespace CSharpPractice
         static void Main(string[] args)
         {
             Console.WriteLine("Class with only one default constructor");
-            Constructors_Example1 example1 = new Constructors_Example1();
+            ClassA example1 = new ClassA();
 
             Console.WriteLine("Class with only one default constructor and one static constructor");
-            Constructors_Example2 example2 = new Constructors_Example2();
+            ClassB example2 = new ClassB();
 
             Console.WriteLine("Class with a parametrized constructor");
-            Constructors_Example3 example3 = new Constructors_Example3();
-            Constructors_Example3 example3_1 = new Constructors_Example3(25);
-            Constructors_Example3 example3_2 = new Constructors_Example3("APPLE");
+            ClassC example3 = new ClassC();
+            ClassC example3_1 = new ClassC(25);
+            ClassC example3_2 = new ClassC("APPLE");
 
             Console.ReadKey();
         }

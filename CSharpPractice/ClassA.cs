@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpPractice
 {
-    class Constructors_Example1
+    class ClassA
     {
-        public Constructors_Example1()
+        public ClassA()
         {
             Console.WriteLine("I am default constructor");
         }        
