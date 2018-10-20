@@ -12,20 +12,9 @@ namespace CSharpPractice
         {
             Console.WriteLine($"The value is int {a}");
         }
-
-        public ClassC(long b)
-        {
-            Console.WriteLine($"The value is long {b}");
-        }
-
-        public ClassC(string s)
-        {
-            Console.WriteLine($"The value is {s}");
-        }
-
         public ClassC()
         {
-            Console.WriteLine("default constructor with a parameterized constructor");
+            Console.WriteLine("Default constructor for ClassC");
         }
     }
 }

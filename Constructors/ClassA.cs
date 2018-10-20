@@ -10,7 +10,7 @@ namespace CSharpPractice
     {
         public ClassA()
         {
-            Console.WriteLine("I am default constructor");
+            Console.WriteLine("I am default constructor for ClassA");
         }        
     }
 }

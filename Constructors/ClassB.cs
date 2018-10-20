@@ -10,12 +10,12 @@ namespace CSharpPractice
     {
         static ClassB()
         {
-            Console.WriteLine("I am a static constructor always called first");
+            Console.WriteLine("I am a static constructor always called first for ClassB");
         }
 
         public ClassB()
         {
-            Console.WriteLine("I am default constructor");
+            Console.WriteLine("I am default constructor of ClassB");
         }
     }
 }
